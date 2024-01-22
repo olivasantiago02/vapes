@@ -1,0 +1,100 @@
+body{
+    background-color: #000;
+}
+
+.navbar {
+    background-color: #000; /* Cambia esto al color negro que desees (#000 es negro absoluto) */
+}
+
+.navbar-brand{
+   margin-left: 1rem;
+}
+
+.navbar-nav a {
+    font-size: 1.2rem; /* Ajusta el tamaño de la fuente según tus preferencias */
+}
+
+  .navbar-toggler-icon {
+    background-color: rgb(0, 0, 0); /* Cambia esto al color que desees */
+}
+
+/* Agrega tus estilos personalizados aquí */
+.logos-section {
+    padding: 10px 0;
+}
+.logos-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logos-section img {
+    max-width: 30%;
+    height: auto;
+    max-height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los enlaces de los logos */
+.logo-link {
+    display: block;
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto del contenedor padre */
+    background-color: rgb(255, 255, 255); /* Fondo blanco transparente */
+    padding: 10px; /* Ajusta el relleno según tus necesidades */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+/* Agrega tus estilos personalizados aquí */
+.new-arrivals-section {
+    padding: 80px 0;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .card {
+    background-color: white;
+  }
+
+  /* Estilo para el precio original tachado */
+.strike {
+    text-decoration: line-through;
+    color: #777; /* Color gris o el que prefieras */
+  }
+  
+  /* Estilo para el precio actual */
+  .current-price {
+    font-size: 1.25rem; /* Ajusta el tamaño según tus necesidades */
+    color: #333; /* Color negro o el que prefieras */
+  }
+
+.whatsapp-logo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.whatsapp-logo img {
+    width: 50px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    border-radius: 10%; /* Agrega bordes redondeados */
+}
+
+/* Flexbox para 3 logos por línea en dispositivos grandes */
+@media (min-width: 768px) {
+  .logos-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .logos-section .col-md-4 {
+    flex-basis: calc(33.33% - 20px); /* 20px es el margen entre los logos */
+    margin-bottom: 20px;
+  }
+}
