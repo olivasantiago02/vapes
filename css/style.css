@@ -1,5 +1,5 @@
 body{
-    background-color: #000000;
+    background-image: url('../images/fondo.jpg');
 }
 
 body {
@@ -142,7 +142,8 @@ h2.text-center.mb-4 {
 /* Estilos personalizados para el aside */
 aside {
   
-  background-color:#000000 ;
+  background-image: url('../images/fondo.jpg');
+  
   padding: 10px;
   color: #fff;
   display: flex;
@@ -170,7 +171,6 @@ aside {
   #contenedorProductos {
     display: flex;
     position: relative;  
-    background: orange;
     width: 100px;
     height: 100px;
   }
@@ -183,7 +183,7 @@ aside {
   }
   
   .card-productos {
-    background-color: #ffffff;
+    background-color: #ffffffc1;
     border-radius: 10px;
     width: 100%;
     overflow: hidden;
