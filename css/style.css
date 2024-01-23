@@ -137,10 +137,13 @@ h2.text-center.mb-4 {
 }
 
 
+
+
 /* Estilos personalizados para el aside */
 aside {
-  background-color:#000 ;
-  padding: 20px;
+  
+  background-color:#000000 ;
+  padding: 10px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -149,60 +152,63 @@ aside {
   
   /* Estilos para las categorías */
   .categoria {
-  margin: 10px;
-  padding: 10px 20px;
+  margin: 0px;
+  padding: 8px 30px;
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 50px;
   }
   
   
   .categoria:hover {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #000;
   }
+
   
-  
-  /* Estilos personalizados para las cards */
-  .card-productos {
-  margin: 10px;
-  margin-left: 75px;
-  width: 60%;
-  height: 20%;
-  max-width: 300px;
-  background-color: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  #contenedorProductos {
+    display: flex;
+    position: relative;  
+    background: orange;
+    width: 100px;
+    height: 100px;
   }
   
+  .producto {
+    
+    margin-bottom: 200px;
+    margin-bottom: 20px; /* Espacio entre las tarjetas en la columna */
+    box-sizing: border-box; /* Asegura que el padding y el borde no afecten el ancho */
+  }
+  
+  .card-productos {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
   
   .card-body {
-  padding: 20px;
+    padding: 20px;
   }
-  
-  
-  
   
   .card-title-producto {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
   }
-  
   
   .card-text-producto {
-  color: #666;
-  margin-bottom: 20px;
+    color: #666;
+    margin-bottom: 20px;
   }
-  
   
   .precio {
-  font-size: 1.25rem;
-  color: #333;
-  margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
   }
-  
   
   
   
@@ -314,4 +320,6 @@ aside {
     flex-basis: calc(33.33% - 20px); /* 20px es el margen entre los logos */
     margin-bottom: 20px;
   }
+
+  
 }

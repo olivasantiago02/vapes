@@ -1,4 +1,4 @@
-js
+
 function filtrarProductos(categoria) {
     // Obtener todos los productos
     var productos = document.querySelectorAll('.producto');
@@ -15,11 +15,21 @@ function filtrarProductos(categoria) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    var producto = document.querySelector('.producto');
-    var imagen = producto.querySelector('.card-img-top');
+  // Obtener todos los productos
+  var productos = document.querySelectorAll('.producto');
 
-    imagen.addEventListener('click', function() {
-      // Alternar la clase 'expanded' para cambiar el tamaño de la imagen
-      imagen.classList.toggle('expanded');
-    });
-  });
+  // Agregar evento clic a las imágenes de productos
+  productos.forEach(function(producto) {
+      var imagen = producto.querySelector('.card-img-top');
+
+      imagen.addEventListener('click', function() {
+          // Alternar la clase 'expanded' para cambiar el tamaño de la imagen
+          imagen.classList.toggle('expanded');
+
+          // Obtener la categoría del producto
+          var categoria = producto.getAttribute('data-categoria');
+
+          // Llama a la función para filtrar productos con la categoría correspondiente
+          filtrarProductos(categoria);
+      });
+  })});
