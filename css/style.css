@@ -1,5 +1,10 @@
 body{
-    background-color: #000;
+    background-color: #000000;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 .navbar {
@@ -45,33 +50,70 @@ body{
     border-radius: 10px; /* Agrega bordes redondeados */
 }
 
-/* Agrega tus estilos personalizados aquí */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(126, 126, 126);
+}
+
+h2.text-center.mb-4 {
+  color: white;
+}
+
+/* Agrega estos estilos a tu hoja de estilos CSS */
 .new-arrivals-section {
-    padding: 80px 0;
-  }
-  
-  .swiper-container {
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  
-  .card {
-    background-color: white;
-  }
+  margin-top: 50px; /* Ajusta el valor según la separación deseada */
+}
+
+/* Agrega estos estilos a tu hoja de estilos CSS */
+.card {
+  max-width: 100%;
+  border-radius: 10px; /* Ajusta el valor según el redondeo deseado */
+  box-shadow: 0 4px 8px rgb(255, 255, 255); /* Ajusta los valores según la sombra deseada */
+  transition: transform 0.3s ease; /* Agrega una transición suave al pasar el ratón */
+}
+
+.card h5{
+  color: #000;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Hace que la card se agrande ligeramente al pasar el ratón */
+}
+
+.original-price {
+  color: #c21717; /* Cambia el color del precio original según tus preferencias */
+  font-size: 18px; /* Ajusta el tamaño del precio original según tus preferencias */
+  font-weight: bold; /* Hace que el precio original sea más grueso */
+  margin-bottom: 5px; /* Ajusta el margen inferior según tus necesidades */
+}
+
+.offer-label {
+  position: absolute;
+  top: 10px; /* Ajusta la posición vertical según tus preferencias */
+  left: 10px; /* Ajusta la posición horizontal según tus preferencias */
+  background-color: #4CAF50; /* Color verde del cartel de oferta */
+  color: #fff; /* Color del texto del cartel de oferta */
+  padding: 5px 10px; /* Ajusta el relleno del cartel según tus preferencias */
+  border-radius: 5px; /* Ajusta el redondeo de las esquinas del cartel según tus preferencias */
+  font-weight: bold; /* Hace que el texto sea más grueso */
+}
+
+.offer-labelv {
+  position: absolute;
+  top: 10px; /* Ajusta la posición vertical según tus preferencias */
+  left: 10px; /* Ajusta la posición horizontal según tus preferencias */
+  background-color: #b24219; /* Color verde del cartel de oferta */
+  color: #fff; /* Color del texto del cartel de oferta */
+  padding: 5px 10px; /* Ajusta el relleno del cartel según tus preferencias */
+  border-radius: 5px; /* Ajusta el redondeo de las esquinas del cartel según tus preferencias */
+  font-weight: bold; /* Hace que el texto sea más grueso */
+}
+
+.best-sellers-section {
+  margin-top: 40px; /* Ajusta el valor según la separación deseada */
+}
 
 
-  /* Estilo para el precio original tachado */
-.strike {
-    text-decoration: line-through;
-    color: #777; /* Color gris o el que prefieras */
-  }
-  
-  /* Estilo para el precio actual */
-  .current-price {
-    font-size: 1.25rem; /* Ajusta el tamaño según tus necesidades */
-    color: #333; /* Color negro o el que prefieras */
-  }
 
 .whatsapp-logo {
     position: fixed;
@@ -84,6 +126,42 @@ body{
     width: 50px; /* Ajusta el tamaño según tus necesidades */
     height: auto;
     border-radius: 10%; /* Agrega bordes redondeados */
+}
+
+/* Estilos generales del footer */
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  max-width: 200px; /* Ajusta el tamaño del logo según tus necesidades */
+}
+
+/* Estilos para los enlaces */
+.footer a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-link {
+  color: #fff;
+  font-size: 33px;
+  margin: 0 10px;
+}
+
+/* Estilos para los números de teléfono y ubicación */
+.footer a.tel-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para la ubicación */
+.footer .location {
+  font-style: italic;
 }
 
 /* Flexbox para 3 logos por línea en dispositivos grandes */
