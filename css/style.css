@@ -137,6 +137,120 @@ h2.text-center.mb-4 {
 }
 
 
+/* Estilos personalizados para el aside */
+aside {
+  background-color:#000 ;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  
+  /* Estilos para las categorías */
+  .categoria {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 20px;
+  }
+  
+  
+  .categoria:hover {
+  background-color: #fff;
+  color: #000;
+  }
+  
+  
+  /* Estilos personalizados para las cards */
+  .card-productos {
+  margin: 10px;
+  margin-left: 75px;
+  width: 60%;
+  height: 20%;
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .card-body {
+  padding: 20px;
+  }
+  
+  
+  
+  
+  .card-title-producto {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  }
+  
+  
+  .card-text-producto {
+  color: #666;
+  margin-bottom: 20px;
+  }
+  
+  
+  .precio {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  .btn-agregar:hover {
+  background-color: #0056b3;
+  }
+  
+  
+  /* Estilos para el enlace que parece un botón */
+  .btn-enlace {
+  display: inline-block;
+  padding: 10px 20px; /* Ajusta según sea necesario */
+  font-size: 16px; /* Ajusta según sea necesario */
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #007bff; /* Borde del botón */
+  cursor: pointer;
+  }
+  
+  
+  /* Cambiar el color del botón al pasar el ratón sobre él */
+  .btn-enlace:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  }
+  
+  
+  .container {
+  max-width: 1300px; /* Ancho máximo del contenedor principal */
+  margin: 50px auto; /* Centra el contenedor en la página */
+  }
+  
+  
+  .column {
+  display: flex; /* Usa flexbox para organizar los elementos en columna */
+  justify-content: space-between; /* Espaciado uniforme entre los elementos */
+  }
+
+  .expanded {
+    width: 100%; /* Ajusta el tamaño como desees */
+    height: auto;
+  }
+
+
 .whatsapp-logo {
     position: fixed;
     bottom: 30px;
@@ -149,6 +263,8 @@ h2.text-center.mb-4 {
     height: auto;
     border-radius: 10%; /* Agrega bordes redondeados */
 }
+
+
 
 /* Estilos generales del footer */
 .footer {

@@ -38,49 +38,516 @@
   </div>
 </nav>
 
-  <!-- Sección de categorías -->
-  <section class="categories-section">
-    <div class="container">
-      <div class="row">
-        <!-- Categoría 1 -->
-        <div class="col-12 col-sm-4 category">
-          <a href="#">
-            <img src="../images/Elf-Bar-Logo.jpg" alt="Marca 1">
-          </a>
-        </div>
-        <!-- Categoría 2 -->
-        <div class="col-12 col-sm-4 category">
-          <a href="#">
-            <img src="../images/fume.webp" alt="Marca 2">
-          </a>
-        </div>
-        <!-- Categoría 3 -->
-        <div class="col-12 col-sm-4 category">
-          <a href="#">
-            <img src="../images/lost-mary-800_1200x1200.webp" alt="Marca 3">
-          </a>
-        </div>
-        <!-- Categoría 4 -->
-        <div class="col-12 col-sm-4 category">
-          <a href="#">
-            <img src="../images/geek-bar.webp" alt="Marca 4">
-          </a>
-        </div>
-        <!-- Categoría 5 -->
-        <div class="col-12 col-sm-4 category">
-          <a href="#">
-            <img src="../images/ignite_logo_Logo.jpg" alt="Marca 5">
-          </a>
-        </div>
-        <!-- Categoría 6 -->
-        <div class="col-12 col-sm-4 category">
-          <a href="#">
-            <img src="../images/hqd.webp" alt="Marca 6">
-          </a>
-        </div>
-      </div>
-    </div>
-</section>
+<aside>
+          <h2>Categorías</h2>
+          <div class="categoria" onclick="filtrarProductos('todos')"><i class="bi bi-fire"></i> Todos los Productos</div>
+          <div class="categoria" onclick="filtrarProductos('ELFBAR')"><i class="bi bi-1-square"></i> ELFBAR</div>
+          <div class="categoria" onclick="filtrarProductos('fume')"><i class="bi bi-2-square"></i> FUME</div>
+          <div class="categoria" onclick="filtrarProductos('lostmary')"><i class="bi bi-3-square"></i> LOST MARY</div>
+          <div class="categoria" onclick="filtrarProductos('geek')"><i class="bi bi-4-square"></i> GEEK BAR</div>
+          <div class="categoria" onclick="filtrarProductos('ignite')"><i class="bi bi-4-square"></i> IGNITE</div>
+          <div class="categoria" onclick="filtrarProductos('hqd')"><i class="bi bi-4-square"></i> HQD (USA)</div>
+      </aside>
+  
+  
+      <!-- Contenedor de Productos -->
+      <div id="contenedorProductos"  class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <!-- Ejemplo de productos, ajusta según tu estructura -->
+          <div class="producto" data-categoria="ELFBAR">
+              <div class="card-productos">
+                  <img src="../images/bluerazzice.jpg" class="card-img-top" alt="Remera 1">
+                  <div class="card-body">
+                      <h5 class="card-title-producto">Elfbar BC10000 Blue Razz Ice</h5>
+                      <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                      
+  
+  
+  
+                  </div>
+              </div>
+          </div>
+  
+  
+          <div class="producto" data-categoria="ELFBAR">
+              <div class="card-productos">
+                  <img src="../images/blueberryice.jpg" class="card-img-top" alt="Remera 2">
+                  <div class="card-body">
+                      <h5 class="card-title-producto">Elfbar BC10000 Blueberry Ice</h5>
+                      <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                      
+                      
+  
+  
+  
+                  </div>
+              </div>
+          </div>
+  
+  
+          <div class="producto" data-categoria="ELFBAR">
+              <div class="card-productos">
+                  <img src="../images/banana.jpg" class="card-img-top" alt="Remera 3">
+                  <div class="card-body">
+                      <h5 class="card-title-producto">Elfbar BC10000 Strawberry Banana</h5>
+                      <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                      
+                      
+  
+  
+  
+                  </div>
+              </div>
+          </div>
+          
+          <div class="producto" data-categoria="ELFBAR">
+              <div class="card-productos">
+                  <img src="../images/peach.jpg" class="card-img-top" alt="Buzo 1">
+                  <div class="card-body">
+                      <h5 class="card-title-producto">Elfbar BC10000 Peach Ice</h5>
+                      <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+  
+  
+  
+                  </div>
+              </div>
+          </div>
+  
+  
+          <div class="producto" data-categoria="ELFBAR">
+              <div class="card-productos">
+                  <img src="../images/elfbar-bc10000-lemon-lime.jpg" class="card-img-top" alt="Buzo 2">
+                  <div class="card-body">
+                      <h5 class="card-title-producto">Elfbar BC10000 Lemon Lime</h5>
+                      <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                      
+  
+  
+  
+                  </div>
+              </div>
+          </div>
+  
+  
+          <div class="producto" data-categoria="ELFBAR">
+              <div class="card-productos">
+                  <img src="../images/elfbar-bc10000-double-mango.jpg" class="card-img-top" alt="Buzo 3">
+                  <div class="card-body">
+                      <h5 class="card-title-producto">Elfbar BC10000 Double Mango</h5>
+                      <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+  
+  
+  
+                  </div>
+              </div>
+          </div>
+
+            <div class="producto" data-categoria="ELFBAR">
+                <div class="card-productos">
+                    <img src="../images/elf-bar-bc5000-mandarin-lime-device_2048x2048.webp" class="card-img-top" alt="Buzo 3">
+                    <div class="card-body">
+                        <h5 class="card-title-producto">Elfbar BC5000 Mandarin Lime</h5>
+                        <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                        
+                        
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto" data-categoria="ELFBAR">
+                  <div class="card-productos">
+                      <img src="../images/fruitguava.jpg" class="card-img-top" alt="Buzo 3">
+                      <div class="card-body">
+                          <h5 class="card-title-producto">Elfbar BC5000 Fruit Guava</h5>
+                          <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                          
+                          
+      
+      
+      
+                      </div>
+                  </div>
+              </div>
+
+
+      <div class="producto" data-categoria="ELFBAR">
+                    <div class="card-productos">
+                        <img src="../images/elf-bar-bc5000-pineapple-coconut-ice-device_2048x2048.webp" class="card-img-top" alt="Buzo 3">
+                        <div class="card-body">
+                            <h5 class="card-title-producto">Elfbar BC5000 Coconut Ice</h5>
+                            <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                            
+                            
+        
+        
+        
+                        </div>
+                    </div>
+                </div>
+
+        <div class="producto" data-categoria="ELFBAR">
+                      <div class="card-productos">
+                          <img src="../images/blue-razz-lemonade-elf-bar-t-5000_600x600.webp" class="card-img-top" alt="Buzo 3">
+                          <div class="card-body">
+                              <h5 class="card-title-producto">Elfbar TE5000 Blue Razz Lemon</h5>
+                              <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                              
+                              
+          
+          
+          
+                          </div>
+                      </div>
+                  </div>
+
+          <div class="producto" data-categoria="ELFBAR">
+                        <div class="card-productos">
+                            <img src="../images/te500_strawberry_ice_jpg.jpg" class="card-img-top" alt="Buzo 3">
+                            <div class="card-body">
+                                <h5 class="card-title-producto">Elfbar TE5000  Strawberry Ice</h5>
+                                <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                                
+                                
+            
+            
+            
+                            </div>
+                        </div>
+                    </div>
+  
+  
+          <div class="producto" data-categoria="hqd">
+              <div class="card-productos">
+                  <img src="../images/HQD1.jpg" class="card-img-top" alt="Buzo 4">
+                  <div class="card-body">
+                      <h5 class="card-title-producto">HQD 6000 Black Ice</h5>
+                      <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+  
+  
+  
+                  </div>
+              </div>
+          </div>
+
+  <div class="producto" data-categoria="hqd">
+                <div class="card-productos">
+                    <img src="../images/Kiwistrawberry_0d2def3f-9d30-4b95-9bee-7ddef3cd57d1 (1).webp.crdownload" class="card-img-top" alt="Buzo 4">
+                    <div class="card-body">
+                        <h5 class="card-title-producto">HQD 6000 Kiwi Strawberry</h5>
+                        <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+          
+            <div class="producto" data-categoria="hqd">
+                  <div class="card-productos">
+                      <img src="../images/grapey-hqd-hbar.jpg" class="card-img-top" alt="Buzo 4">
+                      <div class="card-body">
+                          <h5 class="card-title-producto">HQD 6000 Grapey</h5>
+                          <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+      
+      
+      
+                      </div>
+                  </div>
+              </div>
+  
+  
+                <div class="producto" data-categoria="hqd">
+                    <div class="card-productos">
+                        <img src="../images/FrozenMixberries_93c5351b-04ae-4b34-b735-930461c97ab0.webp.crdownload" class="card-img-top" alt="Buzo 4">
+                        <div class="card-body">
+                            <h5 class="card-title-producto">HQD 6000 Mix Berries</h5>
+                            <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+        
+        
+        
+                        </div>
+                    </div>
+                </div>
+  
+  
+                <div class="producto" data-categoria="hqd">
+                      <div class="card-productos">
+                          <img src="../images/hqd-cuvie-bar-lush-ice.jpg" class="card-img-top" alt="Buzo 4">
+                          <div class="card-body">
+                              <h5 class="card-title-producto">HQD 6000 Lush Ice</h5>
+                              <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+          
+          
+          
+                          </div>
+                      </div>
+                  </div>
+  
+  
+                  <div class="producto" data-categoria="hqd">
+                        <div class="card-productos">
+                            <img src="../images/HQD-6000-Puff-HBAR-Blueberry-Raspberry-600x600.webp" class="card-img-top" alt="Buzo 4">
+                            <div class="card-body">
+                                <h5 class="card-title-producto">HQD 6000 Blueberry Raspberry</h5>
+                                <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+            
+            
+            
+                            </div>
+                        </div>
+                    </div>
+
+
+            <div class="producto" data-categoria="ignite">
+                          <div class="card-productos">
+                              <img src="../images/menthol.webp" class="card-img-top" alt="Buzo 4">
+                              <div class="card-body">
+                                  <h5 class="card-title-producto">Ignite V50 Menthol</h5>
+                                  <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+              
+              
+              
+                              </div>
+                          </div>
+                      </div>
+
+              <div class="producto" data-categoria="ignite">
+                            <div class="card-productos">
+                                <img src="../images/mango.jpg" class="card-img-top" alt="Buzo 4">
+                                <div class="card-body">
+                                    <h5 class="card-title-producto">Ignite V50 Strawberry Mango</h5>
+                                    <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                
+                
+                
+                                </div>
+                            </div>
+                        </div>
+
+                <div class="producto" data-categoria="lostmary">
+                              <div class="card-productos">
+                                  <img src="../images/lost-mary-os5000-strawberry-pina-colada-device_01036e0c-3e92-4fa2-87d3-200862fb5b1c_1024x1024.webp" class="card-img-top" alt="Buzo 4">
+                                  <div class="card-body">
+                                      <h5 class="card-title-producto">Lost Mary OS5000 Strawberry Pina Colada</h5>
+                                      <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                  
+                  
+                  
+                                  </div>
+                              </div>
+                          </div>
+
+                  <div class="producto" data-categoria="lostmary">
+                                <div class="card-productos">
+                                    <img src="../images/lost-mary-os5000-pineapple-mango-device_fc278905-8a83-4bbb-8ab2-ec0e5b210a41_1200x1200.webp.crdownload" class="card-img-top" alt="Buzo 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title-producto">Lost Mary OS5000 Pineapple Mango</h5>
+                                        <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                    
+                    
+                    
+                                    </div>
+                                </div>
+                            </div>
+
+                    <div class="producto" data-categoria="lostmary">
+                                  <div class="card-productos">
+                                      <img src="../images/LostMary_bluecottoncandy_297293a0-56d9-4668-a259-dedd6c1745c0_1593x.webp" class="card-img-top" alt="Buzo 4">
+                                      <div class="card-body">
+                                          <h5 class="card-title-producto">Lost Mary OS5000 Blue Cotton Candy</h5>
+                                          <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                      
+                      
+                      
+                                      </div>
+                                  </div>
+                              </div>
+
+                      <div class="producto" data-categoria="lostmary">
+                                    <div class="card-productos">
+                                        <img src="../images/LostMary_bluecottoncandy_297293a0-56d9-4668-a259-dedd6c1745c0_1593x.webp" class="card-img-top" alt="Buzo 4">
+                                        <div class="card-body">
+                                            <h5 class="card-title-producto">Lost Mary MO10000 Granny Cherry</h5>
+                                            <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                        
+                        
+                        
+                                        </div>
+                                    </div>
+                                </div>
+
+                        <div class="producto" data-categoria="lostmary">
+                                      <div class="card-productos">
+                                          <img src="../images/dragon.jpeg" class="card-img-top" alt="Buzo 4">
+                                          <div class="card-body">
+                                              <h5 class="card-title-producto">Lost Mary MO10000 Blue Dragon Fruit Peach</h5>
+                                              <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                          
+                          
+                                          </div>
+                                      </div>
+                                  </div>
+
+                          <div class="producto" data-categoria="lostmary">
+                                        <div class="card-productos">
+                                            <img src="../images/grape.jpg" class="card-img-top" alt="Buzo 4">
+                                            <div class="card-body">
+                                                <h5 class="card-title-producto">Lost Mary MO10000 Straw Grape Fruit</h5>
+                                                <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                            
+                            
+                            
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            <div class="producto" data-categoria="lostmary">
+                                          <div class="card-productos">
+                                              <img src="../images/peachmango.png" class="card-img-top" alt="Buzo 4">
+                                              <div class="card-body">
+                                                  <h5 class="card-title-producto">Lost Mary MO10000 Peach Mango</h5>
+                                                  <!-- Descripción del producto -->
+  <p class="card-text description">Una breve descripción del producto aquí...</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$28.00</del></p>
+  <p class="card-text">$20.000</p>
+  <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart2"></i></a>
+                              
+                              
+                              
+                                              </div>
+                                          </div>
+                                      </div>
+
+
+                             
 
 
   
@@ -104,7 +571,7 @@
       <div class="row mt-3">
         <!-- Enlaces -->
         <div class="col-12 text-center">
-          <a href="./index.html">Home</a> | <a href="#">Vapes</a> | <a href="#">Contacto</a>
+          <a href="./index.html">Home</a> | <a href="./vapes.html">Vapes</a> | <a href="#">Contacto</a>
         </div>
       </div>
       <div class="row mt-3">
@@ -135,6 +602,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- Agrega tu script personalizado -->
-<script src="./javascript/main.js"></script>
+<script src="../javascript/main.js"></script>
 </body>
 </html>
