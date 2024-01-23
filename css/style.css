@@ -113,6 +113,28 @@ h2.text-center.mb-4 {
   margin-top: 40px; /* Ajusta el valor según la separación deseada */
 }
 
+/* Estilos para la sección de categorías */
+.categories-section {
+  background-color: #000000; /* Fondo blanco */
+  padding: 10px 0; /* Ajusta el espacio interior según sea necesario */
+}
+
+/* Estilos para cada categoría */
+.category {
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre categorías */
+}
+
+.category a {
+  display: block; /* Hacer el enlace de la imagen de bloque completo */
+}
+
+.category img {
+  max-width: 30%; /* Ancho máximo del 100% para llenar su contenedor */
+  height: auto; /* Para mantener la proporción de la imagen */
+  border-radius: 10px; /* Bordes redondeados para la imagen */
+  margin-bottom: 10px; /* Espacio inferior entre las imágenes */
+}
 
 
 .whatsapp-logo {
