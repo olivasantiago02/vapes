@@ -256,6 +256,46 @@ aside {
     height: auto;
   }
 
+   /* Estilos personalizados para la sección */
+   #info-section {
+    background-color: #000000; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto blanco */
+    padding: 50px 0; /* Espaciado interno */
+}
+
+/* Estilos para los iconos */
+.info-icon {
+    font-size: 3em; /* Tamaño del icono */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilos adicionales para el texto */
+.info-text {
+    font-size: 1.5em; /* Tamaño del texto */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+  /* Estilos personalizados para la sección */
+  #favorite-brands-section {
+    background-color: #000000; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto blanco */
+    padding: 50px 0; /* Espaciado interno */
+}
+
+/* Estilos para los iconos */
+.brand-icon {
+  border-radius: 20px;
+  width: 120px; /* Ancho de la imagen */
+  height: 120px; /* Altura de la imagen */
+  margin: 0 20px 20px; /* Espaciado horizontal entre las imágenes */
+}
+
+/* Estilos adicionales para el texto */
+.brand-title {
+    font-size: 2em; /* Tamaño del título */
+    text-align: center; /* Alineación del texto al centro */
+    margin-bottom: 30px; /* Espaciado inferior */
+}
 
 .whatsapp-logo {
     position: fixed;
@@ -268,6 +308,19 @@ aside {
     width: 50px; /* Ajusta el tamaño según tus necesidades */
     height: auto;
     border-radius: 10%; /* Agrega bordes redondeados */
+}
+
+.whatsapp-button {
+  background-color: #4CAF50; /* Color verde */
+  color: #fff; /* Color de texto blanco */
+  padding: 15px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto al centro */
+  text-decoration: none; /* Sin subrayado en el texto */
+  display: inline-block; /* Mostrar como elemento en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  border-radius: 8px; /* Bordes redondeados */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
 }
 
 
