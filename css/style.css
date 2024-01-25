@@ -50,9 +50,9 @@ body {
     border-radius: 10px; /* Agrega bordes redondeados */
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgb(126, 126, 126);
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #00000015; /* Cambia este valor al color que desees */
 }
 
 h2.text-center.mb-4 {
@@ -63,22 +63,17 @@ h2.text-center.mb-4 {
 .new-arrivals-section {
   margin-top: 50px; /* Ajusta el valor según la separación deseada */
 }
-
 /* Agrega estos estilos a tu hoja de estilos CSS */
 .card {
   max-width: 100%;
-  border-radius: 10px; /* Ajusta el valor según el redondeo deseado */
-  box-shadow: 0 4px 8px rgb(255, 255, 255); /* Ajusta los valores según la sombra deseada */
-  transition: transform 0.3s ease; /* Agrega una transición suave al pasar el ratón */
+  box-shadow: 0 4px 8px rgb(0, 0, 0); /* Ajusta los valores según la sombra deseada */
 }
 
 .card h5{
   color: #000;
 }
 
-.card:hover {
-  transform: scale(1.05); /* Hace que la card se agrande ligeramente al pasar el ratón */
-}
+
 
 .original-price {
   color: #c21717; /* Cambia el color del precio original según tus preferencias */
@@ -168,54 +163,60 @@ aside {
   }
 
   
-  #contenedorProductos {
-    display: flex;
-    position: relative;  
-    width: 100px;
-    height: 100px;
-  }
+ 
   
-  .producto {
-    
-    margin-bottom: 200px;
-    margin-bottom: 20px; /* Espacio entre las tarjetas en la columna */
-    box-sizing: border-box; /* Asegura que el padding y el borde no afecten el ancho */
-  }
+  /* Estilos adicionales para las tarjetas de productos */
+
+
+.card-body{
+  background-color: #ffffff;
+  margin-bottom: -20px;
+}
+
+
+
+.card-productos {
+  width: 100%;
+  background-color: #ffffff;
+  max-width: 300px; /* Ancho máximo de las tarjetas */
+  margin: 0 auto; /* Centrar las tarjetas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.card-title-producto {
+  font-size: 1.25rem; /* Tamaño del título */
   
-  .card-productos {
-    background-color: #ffffffc1;
-    border-radius: 10px;
-    width: 100%;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+}
+
+.card-text {
+  color: #000000;
   
-  .card-body {
-    padding: 20px;
-  }
-  
-  .card-title-producto {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .card-text-producto {
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .precio {
-    font-size: 1.25rem;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  
-  
-  
-  .btn-agregar:hover {
-  background-color: #0056b3;
-  }
+}
+
+.original-price {
+  text-decoration: line-through; /* Precio original tachado */
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #4CAF50; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #45a049; /* Cambia el color al pasar el ratón */
+}
   
   
   /* Estilos para el enlace que parece un botón */
@@ -310,17 +311,21 @@ aside {
     border-radius: 10%; /* Agrega bordes redondeados */
 }
 
+/* Estilos adicionales para el botón de WhatsApp */
 .whatsapp-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
   background-color: #4CAF50; /* Color verde */
-  color: #fff; /* Color de texto blanco */
-  padding: 15px; /* Espaciado interno */
-  text-align: center; /* Alineación del texto al centro */
-  text-decoration: none; /* Sin subrayado en el texto */
-  display: inline-block; /* Mostrar como elemento en línea */
-  font-size: 16px; /* Tamaño de la fuente */
-  border-radius: 8px; /* Bordes redondeados */
-  border: none; /* Sin borde */
-  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  color: white;
+  text-decoration: none;
+  font-size: 18px; /* Tamaño de letra más grande */
+  border-radius: 5px;
+}
+
+.descuento {
+  color: #FFD700; /* Color dorado para destacar el 10% */
 }
 
 
@@ -361,6 +366,11 @@ aside {
   font-style: italic;
 }
 
+ .card-body {
+  margin-bottom: 10px; /* Ajusta este valor según sea necesario */
+}
+
+
 /* Flexbox para 3 logos por línea en dispositivos grandes */
 @media (min-width: 768px) {
   .logos-section .row {
@@ -372,6 +382,10 @@ aside {
   .logos-section .col-md-4 {
     flex-basis: calc(33.33% - 20px); /* 20px es el margen entre los logos */
     margin-bottom: 20px;
+  }
+
+  .new-arrivals-section .card-body {
+    margin-bottom: 10px; /* Ajusta este valor según sea necesario */
   }
 
   
