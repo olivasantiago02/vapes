@@ -259,7 +259,7 @@ aside {
 
    /* Estilos personalizados para la sección */
    #info-section {
-    background-color: #000000; /* Color de fondo oscuro */
+    background-image: url('../images/fondo.jpg'); /* Color de fondo oscuro */
     color: #fff; /* Color de texto blanco */
     padding: 50px 0; /* Espaciado interno */
 }
@@ -278,14 +278,15 @@ aside {
 
   /* Estilos personalizados para la sección */
   #favorite-brands-section {
-    background-color: #000000; /* Color de fondo oscuro */
+    background-image: url('../images/fondo.jpg'); /* Color de fondo oscuro */
     color: #fff; /* Color de texto blanco */
     padding: 50px 0; /* Espaciado interno */
 }
 
 /* Estilos para los iconos */
 .brand-icon {
-  border-radius: 20px;
+  border-radius: 15px;
+  padding: 20px;
   width: 120px; /* Ancho de la imagen */
   height: 120px; /* Altura de la imagen */
   margin: 0 20px 20px; /* Espaciado horizontal entre las imágenes */
