@@ -202,7 +202,7 @@ aside {
 
 .original-price {
   text-decoration: line-through; /* Precio original tachado */
-  color: #000000;
+  color: #ff0000;
 }
 
 .btn-primary {
@@ -322,11 +322,22 @@ aside {
   color: white;
   text-decoration: none;
   font-size: 18px; /* Tamaño de letra más grande */
-  border-radius: 5px;
+  
 }
 
 .descuento {
   color: #FFD700; /* Color dorado para destacar el 10% */
+}
+
+#whatsappButton {
+  margin-top: 2rem;
+  background-color: #fff; /* Color claro para el botón */
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #000; /* Color del texto */
+  display: block;
 }
 
 
