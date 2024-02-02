@@ -196,7 +196,8 @@ aside {
 }
 
 .card-text {
-  color: #000000;
+  font-weight: bold; /* Cambia el grosor del texto */
+        color: black; /* Cambia el color del texto a negro */
   
 }
 
