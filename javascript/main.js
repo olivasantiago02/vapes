@@ -34,3 +34,21 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   })});
 
+  document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona todos los elementos con la clase 'logo-link'
+    var logos = document.querySelectorAll('.logos-section .logo-link');
+
+    // Función para agregar la clase 'show' de manera secuencial
+    function showLogosSequentially(index) {
+      if (index < logos.length) {
+        logos[index].classList.add('show');
+        // Llama recursivamente a la función para el siguiente logo después de un breve retraso
+        setTimeout(function() {
+          showLogosSequentially(index + 1);
+        }, 200); // Puedes ajustar el valor del retraso según tus preferencias
+      }
+    }
+
+    // Inicia la animación llamando a la función para el primer logo
+    showLogosSequentially(0);
+  });

@@ -50,9 +50,21 @@ body {
     border-radius: 10px; /* Agrega bordes redondeados */
 }
 
+.logos-section .logo-link {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.logos-section .logo-link.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: #00000015; /* Cambia este valor al color que desees */
+  background-color: #00000067; /* Cambia este valor al color que desees */
+  width: 5%;
 }
 
 h2.text-center.mb-4 {
@@ -66,6 +78,7 @@ h2.text-center.mb-4 {
 /* Agrega estos estilos a tu hoja de estilos CSS */
 .card {
   max-width: 100%;
+  margin: 0%;
   box-shadow: 0 4px 8px rgb(0, 0, 0); /* Ajusta los valores según la sombra deseada */
 }
 
@@ -176,12 +189,15 @@ aside {
 
 
 .card-productos {
-  width: 100%;
+  width: 60%;
+  height: 60%;
   background-color: #ffffff;
-  max-width: 300px; /* Ancho máximo de las tarjetas */
+  border-radius: 15px;
+  padding: 0%;
   margin: 0 auto; /* Centrar las tarjetas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
+
 
 .card-img-top {
   width: 100%;
@@ -195,9 +211,9 @@ aside {
   
 }
 
-.card-text {
-  font-weight: bold; /* Cambia el grosor del texto */
-        color: black; /* Cambia el color del texto a negro */
+.card-price {
+  font-weight: 900; /* Cambia el grosor del texto */
+  color: black; /* Cambia el color del texto a negro */
   
 }
 
@@ -382,6 +398,8 @@ aside {
  .card-body {
   margin-bottom: 10px; /* Ajusta este valor según sea necesario */
 }
+
+
 
 
 /* Flexbox para 3 logos por línea en dispositivos grandes */
