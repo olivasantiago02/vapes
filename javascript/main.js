@@ -52,3 +52,20 @@ document.addEventListener("DOMContentLoaded", function() {
     // Inicia la animación llamando a la función para el primer logo
     showLogosSequentially(0);
   });
+
+   // Función para hacer que la página se desplace hacia arriba
+   function subirAlTope() {
+    document.body.scrollTop = 0; // Para navegadores que no sean Firefox
+    document.documentElement.scrollTop = 0; // Para Firefox
+}
+
+// Mostrar el botón cuando el usuario haya desplazado 20px desde la parte superior de la página
+window.onscroll = function() {mostrarBoton()};
+
+function mostrarBoton() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        document.getElementById("botonSubir").style.display = "block";
+    } else {
+        document.getElementById("botonSubir").style.display = "none";
+    }
+}

@@ -409,19 +409,31 @@ aside {
 }
 
 #newArrivalsCarousel .carousel-item img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
-  max-height: 300px; /* Ajusta el valor según sea necesario para mantener una altura consistente */
+  max-height: 70%; /* Ajusta el valor según sea necesario para mantener una altura consistente */
   margin: 0 auto; /* Centrar las imágenes horizontalmente */
 }
 
 #bestSellersCarousel .carousel-item img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     max-height: 300px; /* Ajusta el valor según sea necesario para mantener una altura consistente */
     margin: 0 auto; /* Centrar las imágenes horizontalmente */
   }
 
+  #botonSubir {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    background-color: #ffffff80;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
 
 /* Flexbox para 3 logos por línea en dispositivos grandes */
 @media (min-width: 768px) {
