@@ -25,7 +25,7 @@ body {
 
 /* Agrega tus estilos personalizados aquí */
 .logos-section {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 .logos-section{
     display: flex;
@@ -34,10 +34,11 @@ body {
 }
 
 .logos-section img {
-    max-width: 30%;
+    max-width: 20%;
+    margin-top: 0px;
     height: auto;
-    max-height: 80px;
-    margin-bottom: 10px;
+    max-height: 60px;
+    margin-bottom: 0px;
 }
 
 /* Estilo para los enlaces de los logos */
@@ -47,7 +48,7 @@ body {
     color: inherit; /* Hereda el color del texto del contenedor padre */
     background-color: rgb(255, 255, 255); /* Fondo blanco transparente */
     padding: 10px; /* Ajusta el relleno según tus necesidades */
-    border-radius: 10px; /* Agrega bordes redondeados */
+    border-radius: 15px; /* Agrega bordes redondeados */
 }
 
 .logos-section .logo-link {
@@ -399,7 +400,27 @@ aside {
   margin-bottom: 10px; /* Ajusta este valor según sea necesario */
 }
 
+/* Establecer un tamaño máximo para las imágenes del carrusel */
+#cardCarousel .carousel-item img {
+  max-width: 70%;
+  height: auto;
+  max-height: 70%; /* Ajusta el valor según sea necesario para mantener una altura consistente */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+}
 
+#newArrivalsCarousel .carousel-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* Ajusta el valor según sea necesario para mantener una altura consistente */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+}
+
+#bestSellersCarousel .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Ajusta el valor según sea necesario para mantener una altura consistente */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+  }
 
 
 /* Flexbox para 3 logos por línea en dispositivos grandes */
