@@ -153,7 +153,7 @@ aside {
   
   background-image: url('../images/fondo.jpg');
   
-  padding: 10px;
+  padding: 0px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -162,7 +162,7 @@ aside {
   
   /* Estilos para las categorías */
   .categoria {
-  margin: 0px;
+  margin: 10px;
   padding: 8px 30px;
   background-color: transparent;
   border: 2px solid #fff;
