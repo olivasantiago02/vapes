@@ -69,3 +69,17 @@ function mostrarBoton() {
         document.getElementById("botonSubir").style.display = "none";
     }
 }
+
+// Espera a que la página esté completamente cargada
+window.addEventListener('load', function() {
+  // Obtiene todos los elementos con la clase 'info-icon' y 'info-text'
+  var icons = document.querySelectorAll('.info-icon');
+  var texts = document.querySelectorAll('.info-text');
+  // Recorre cada icono y texto y les aplica una transición gradual para hacerlos visibles
+  icons.forEach(function(icon, index) {
+      setTimeout(function() {
+          icon.style.opacity = '1';
+          texts[index].style.opacity = '1';
+      }, 500 * index); // Espera 500 milisegundos antes de hacer visible el siguiente icono y texto
+  });
+});

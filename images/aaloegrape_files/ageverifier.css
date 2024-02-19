@@ -1,0 +1,140 @@
+.otAgeVerifier img {
+    max-width: 100%;
+}
+.otAgeVerifier #av-overlay-wrap {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    display: none;
+}
+.otAgeVerifier #av-overlay-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.35);
+    margin: 0;
+    padding: 15px;
+    z-index: 99999999999 !important;
+    text-align: center;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    width: 96%;
+    max-width: 800px;
+}
+
+.otAgeVerifier h1.headline_text {
+    text-transform: uppercase;
+}
+
+.otAgeVerifier select.av_datepicker {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    font-size: 16px;
+}
+.otAgeVerifier .av_submit_form {
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    line-height: normal !important;
+    border: none;
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 10px 0;
+    transition: color 0.1s ease-in,background-color 0.1s ease-in !important;
+    width: 40%;
+    margin: 10px auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.otAgeVerifier .av_submit_form,.otAgeVerifier .av_submit_form:hover,.otAgeVerifier .av_submit_form:focus {
+    text-transform: uppercase;
+    outline: none !important;
+}
+
+.otAgeVerifier .av_date_submit_form {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.otAgeVerifier .av_date_submit,.otAgeVerifier .av_date_cancel {
+    width: 45%;
+    padding: 15px 0;
+}
+.otAgeVerifier .av_date_submit {
+    float: left;
+}
+
+.otAgeVerifier .av_date_submit > a,.otAgeVerifier .av_date_cancel > a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.otAgeVerifier .av_date_cancel {
+    float: right;
+}
+.otAgeVerifier #av-overlay-form .av-credit {
+    float: right;
+    font-size: 0.8rem;
+    min-height: 24px;
+    line-height: 24px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0;
+}
+.otAgeVerifier #av-overlay-form .av-credit img {
+    margin-right: 5px;
+}
+.otAgeVerifier #av-overlay-form:hover .av-credit {
+    opacity: 1;
+}
+@-webkit-keyframes form_shake {
+	0%, 100% {margin-left: 0 }
+	10%, 30%, 50%, 70%, 90% {margin-left: -10px}
+	20%, 40%, 60%, 80% {margin-left: 10px;}
+}
+@keyframes form_shake {
+	0%, 100% {margin-left: 0}
+	10%, 30%, 50%, 70%, 90% {margin-left: -10px}
+	20%, 40%, 60%, 80% {margin-left: 10px;}
+}
+.otAgeVerifier .form_shake {
+	-webkit-animation-name: form_shake !important;
+	animation-name: form_shake !important;
+}
+
+.otAgeVerifier .logo-image img {
+	max-width: 30%;
+}
+.otAgeVerifier .stopScrolling {
+    height: 100%;
+    overflow: hidden;
+}
+@media (min-width: 992px) {
+	.otAgeVerifier #av-overlay-form {
+		max-width: 40%;
+	}
+}

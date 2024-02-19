@@ -282,16 +282,25 @@ aside {
     padding: 50px 0; /* Espaciado interno */
 }
 
-/* Estilos para los iconos */
+/* Estilo para los iconos */
 .info-icon {
-    font-size: 3em; /* Tamaño del icono */
-    margin-bottom: 20px; /* Espaciado inferior */
+  font-size: 3rem;
+  color: #25D366;
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.5s ease; /* Transición suave */
 }
 
-/* Estilos adicionales para el texto */
+/* Estilo para el texto */
 .info-text {
-    font-size: 1.5em; /* Tamaño del texto */
-    text-align: center; /* Alineación del texto al centro */
+  font-size: 1rem;
+  color: #ffffff;
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.5s ease; /* Transición suave */
+}
+
+/* Estilo para los contenedores de los iconos */
+.mb-4 {
+  margin-bottom: 4rem;
 }
 
   /* Estilos personalizados para la sección */

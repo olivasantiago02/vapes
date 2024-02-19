@@ -1,0 +1,62 @@
+// Shop Name
+if (typeof omgage_checkJS == "undefined") {
+    var omgage_checkJS = 1;
+    var omg_age_verifier_shopName = Shopify.shop;
+    var rootlinkAgeVerifier = "https://api.omegatheme.com/age-verifier";
+
+    if (typeof $ == "undefined") {
+        javascript: (function (e, s) {
+            e.src = s;
+            e.onload = function () {
+                $ = jQuery.noConflict();
+                omgage_init();
+            };
+            document.head.appendChild(e);
+        })(
+            document.createElement("script"),
+            "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+        );
+    } else {
+        omgage_init();
+    }
+
+    async function omgage_init() {
+        window.ageV_ver = await omgage_checkInstallApp();
+        if (window.ageV_ver != null) {
+            omgage_cachedScriptFile(`${rootlinkAgeVerifier}/app.js?v=${window.ageV_ver}`).done(function (script, textStatus) {
+                omgage_getJsonFile();
+            });
+        }
+    }
+
+    // -----------------Fetch Settings-------------------
+    function omgage_checkInstallApp() {
+        return new Promise(resolve => {
+            $.ajax({
+                url: `${rootlinkAgeVerifier}/ageverifier.php`,
+                type: "GET",
+                data: {
+                    shop: omg_age_verifier_shopName,
+                    action: "checkInstallApp"
+                },
+                dataType: "json"
+            }).done(result => {
+                if (result.install && !result.expired) {
+                    resolve(result.ver);
+                } else {
+                    resolve(null);
+                }
+            });
+        });
+    }
+    // ----------------End Fetch Settings-----------------
+
+    function omgage_cachedScriptFile(url, options) {
+        options = $.extend(options || {}, {
+            dataType: "script",
+            cache: true,
+            url: url
+        });
+        return $.ajax(options);
+    }
+}
