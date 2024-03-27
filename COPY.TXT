@@ -1,0 +1,119 @@
+<div class="producto" data-categoria="ELFBAR">
+                <div class="card-productos">
+                    <img src="../images/elf-bar-bc5000-mandarin-lime-device_2048x2048.webp" class="card-img-top" alt="Buzo 3">
+                    <div class="card-body">
+                        <h5 class="card-title-producto">Elfbar BC5000 Mandarin Lime</h5>
+                        <!-- Descripción del producto -->
+  <p class="card-text description">Experiencia Premium de Vapeo con 5,000 Puffs 5% Nicotina.</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$20.000</del></p>
+  <p class="card-price">$18.000</p>
+  <a href="https://wa.me/5493512309087?text=¡Hola!%20Estoy%20interesado%20en%20comprar%20el%20vape%20Elfbar%20BC5000%20Mandarin%20Lime.%20¿Puedes%20proporcionarme%20más%20información." class="btn btn-primary w-100" style="color: rgb(0, 0, 0);">NO DISPONIBLE</a>
+
+                        
+                        
+    
+    
+    
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto" data-categoria="ELFBAR">
+                  <div class="card-productos">
+                      <img src="../images/fruitguava.jpg" class="card-img-top" alt="Buzo 3">
+                      <div class="card-body">
+                          <h5 class="card-title-producto">Elfbar BC5000 Fruit Guava</h5>
+                          <!-- Descripción del producto -->
+  <p class="card-text description">Experiencia Premium de Vapeo con 5,000 Puffs 5% Nicotina.</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$20.000</del></p>
+  <p class="card-price">$18.000</p>
+  <a href="https://wa.me/5493512309087?text=¡Hola!%20Estoy%20interesado%20en%20comprar%20el%20vape%20Elfbar%20BC5000%20Mandarin%20Lime.%20¿Puedes%20proporcionarme%20más%20información." class="btn btn-primary w-100" style="color: rgb(0, 0, 0);">NO DISPONIBLE</a>
+                          
+                          
+      
+      
+      
+                      </div>
+                  </div>
+              </div>
+
+
+      <div class="producto" data-categoria="ELFBAR">
+                    <div class="card-productos">
+                        <img src="../images/elf-bar-bc5000-pineapple-coconut-ice-device_2048x2048.webp" class="card-img-top" alt="Buzo 3">
+                        <div class="card-body">
+                            <h5 class="card-title-producto">Elfbar BC5000 Coconut Ice</h5>
+                            <!-- Descripción del producto -->
+  <p class="card-text description">Experiencia Premium de Vapeo con 5,000 Puffs 5% Nicotina.</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$20.000</del></p>
+  <p class="card-price">$18.000</p>
+  <a href="https://wa.me/5493512309087?text=¡Hola!%20Estoy%20interesado%20en%20comprar%20el%20vape%20Elfbar%20BC5000%20Mandarin%20Lime.%20¿Puedes%20proporcionarme%20más%20información." class="btn btn-primary w-100" style="color: rgb(0, 0, 0);">NO DISPONIBLE</a>
+
+
+                            
+                            
+        
+        
+        
+                        </div>
+                    </div>
+                </div>
+
+          <div id="lost-link" class="producto" data-categoria="lostmary">
+                              <div class="card-productos">
+                                  <img src="../images/lost-mary-os5000-strawberry-pina-colada-device_01036e0c-3e92-4fa2-87d3-200862fb5b1c_1024x1024.webp" class="card-img-top" alt="Buzo 4">
+                                  <div class="card-body">
+                                      <h5 class="card-title-producto">Lost Mary OS5000 Strawberry Pina Colada</h5>
+                                      <!-- Descripción del producto -->
+  <p class="card-text description">El vaporizador desechable LOST MARY OS5000 adopta un diseño ergonómico para un agarre práctico y definitivo. Hasta 5000 caladas. Es recargable y duradero.</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$22.000</del></p>
+  <p class="card-price">$19.000</p>
+  <a href="https://wa.me/5493512309087?text=¡Hola!%20Estoy%20interesado%20en%20comprar%20el%20vape%20Lost%20Mary%20OS5000%20Strawberry%20Pina%20Colada." class="btn btn-primary w-100">NO DISPONIBLE</a>
+
+                  
+                  
+                                  </div>
+                              </div>
+                          </div>
+
+                  <div class="producto" data-categoria="lostmary">
+                                <div class="card-productos">
+                                    <img src="../images/pinman.png" class="card-img-top" alt="Buzo 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title-producto">Lost Mary OS5000 Pineapple Mango</h5>
+                                        <!-- Descripción del producto -->
+  <p class="card-text description">El vaporizador desechable LOST MARY OS5000 adopta un diseño ergonómico para un agarre práctico y definitivo. Hasta 5000 caladas. Es recargable y duradero.</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$22.000</del></p>
+  <p class="card-price">$19.000</p>
+  <a href="https://wa.me/5493512309087?text=¡Hola!%20Estoy%20interesado%20en%20comprar%20el%20vape%20Lost%20Mary%20OS5000%20Pineapple%20Mango." class="btn btn-primary w-100">NO DISPONIBLE</a>
+
+                    
+                    
+                    
+                                    </div>
+                                </div>
+                            </div>
+
+                    <div class="producto" data-categoria="lostmary">
+                                  <div class="card-productos">
+                                      <img src="../images/cotton.jpg" class="card-img-top" alt="Buzo 4">
+                                      <div class="card-body">
+                                          <h5 class="card-title-producto">Lost Mary OS5000 Blue Cotton Candy</h5>
+                                          <!-- Descripción del producto -->
+  <p class="card-text description">El vaporizador desechable LOST MARY OS5000 adopta un diseño ergonómico para un agarre práctico y definitivo. Hasta 5000 caladas. Es recargable y duradero.</p>
+  <!-- Precio original tachado -->
+  <p class="card-text original-price"><del>$22.000</del></p>
+  <p class="card-price">$19.000</p>
+  <a href="https://wa.me/5493512309087?text=¡Hola!%20Estoy%20interesado%20en%20comprar%20el%20vape%20Lost%20Mary%20OS5000%20Blue%20Cotton%20Candy." class="btn btn-primary w-100">NO DISPONIBLE</a>
+
+                      
+                      
+                      
+                                      </div>
+                                  </div>
+                              </div>
